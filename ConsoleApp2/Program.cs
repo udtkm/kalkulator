@@ -12,25 +12,22 @@ namespace ConsoleApp2
         {
             while (true)
             {
-<<<<<<< HEAD
-         
-=======
+
                 Console.WriteLine("0. Wyjście");
                 Console.WriteLine("1.Dodawanie");
                 Console.WriteLine("2.Odejmowanie");
                 Console.WriteLine("3. Mnożenie");
-                
+                //ss
                 int menuOpt = Convert.ToInt32(Console.ReadLine());
->>>>>>> 04661ac... Add multiplication option to menu
+
                 if (menuOpt == 0)
                 {
                     break;
                 }
-<<<<<<< HEAD
+
                
              
-=======
->>>>>>> 04661ac... Add multiplication option to menu
+
             }
         }
     }
