@@ -16,6 +16,10 @@ namespace ConsoleApp2
                 Console.WriteLine("1.Dodawanie");
                 Console.WriteLine("2.Odejmowanie");
                 int menuOpt = Convert.ToInt32(Console.ReadLine());
+                if (menuOpt == 0)
+                {
+                    break;
+                }
             }
         }
     }
