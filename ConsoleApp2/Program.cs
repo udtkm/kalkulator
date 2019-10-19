@@ -12,14 +12,15 @@ namespace ConsoleApp2
         {
             while (true)
             {
-                Console.WriteLine("0. Wyjście");
-                Console.WriteLine("1.Dodawanie");
-                Console.WriteLine("2.Odejmowanie");
                 int menuOpt = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("4. Wyjście");
+                Console.WriteLine("1.ADD");
                 if (menuOpt == 0)
                 {
                     break;
                 }
+                Console.WriteLine("2.DIFF");
+             
             }
         }
     }
